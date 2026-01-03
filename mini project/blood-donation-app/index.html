@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Donation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🩸 Blood Donation Application</h1>
+
+<div class="container">
+    <h2>Donor Registration</h2>
+
+    <input type="text" id="name" placeholder="Donor Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="text" id="blood" placeholder="Blood Group (A+, O-)">
+    <input type="text" id="city" placeholder="City">
+
+    <button onclick="addDonor()">Register Donor</button>
+</div>
+
+<div class="container">
+    <h2>Available Donors</h2>
+    <ul id="donorList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
